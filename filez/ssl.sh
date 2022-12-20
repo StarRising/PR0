@@ -9,7 +9,7 @@ apt install zip -y; apt install unzip -y
 cd /etc; rm -rf ssl stunnel; clear
 echo -e "Substituindo certificados SSL..."
 sleep 3
-wget --no-check-certificate https://github.com/StarRising/PR0/blob/main/filez/ssl.zip
+wget --no-check-certificate https://raw.githubusercontent.com/StarRising/PR0/main/filez/ssl.zip
 unzip ssl.zip; rm ssl.zip; clear
 echo -e "Atualização do certificado SSL concluída"
 echo -e "Reinicie o servidor para que as mudancas "
